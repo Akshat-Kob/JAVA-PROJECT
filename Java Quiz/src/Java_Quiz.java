@@ -57,10 +57,10 @@ public class Java_Quiz extends JFrame implements ActionListener {
             this.setVisible(false);
             new Rules(name);
             }
-//             else{
-// this.setVisible(false);
-// new Error();
-//             }
+            else{
+this.setVisible(false);
+new Error();
+            }
 
         }else{
             System.exit(0);
